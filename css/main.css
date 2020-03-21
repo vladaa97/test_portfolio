@@ -272,7 +272,8 @@ a:hover {
     justify-content: center;
     height: 100%;
     position: relative;
-    z-index: 120;
+	z-index: 120;
+	padding: 5px;
 }
 
 .title{
@@ -595,7 +596,7 @@ a:hover {
 	}
 	
 	.nav_link_works:after {
-		content: 'PORTFOLIO';
+		content: 'SKILLS';
 	}
 	
 	.nav_link_contacts:after {
