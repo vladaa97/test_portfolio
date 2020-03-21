@@ -58,7 +58,7 @@ if($('#home-card').length) {
                     elem.css("width",width + '%');
                   }
                 }
-            }, 800);
+            }, 1000);
             
 
             setTimeout(function(){
