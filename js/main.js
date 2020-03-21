@@ -41,6 +41,9 @@ if($('#home-card').length) {
             setTimeout(function(){
                 $('.preloader').css({'transform':'translate(0%)','opacity':'1'});
                 menu_items.removeClass('active');
+                if($('header').hasClass('opened')){
+                    $('header').removeClass('opened');
+                }
             }, 500);
 
             setTimeout(function(){
@@ -55,7 +58,7 @@ if($('#home-card').length) {
                     elem.css("width",width + '%');
                   }
                 }
-            }, 1000);
+            }, 800);
             
 
             setTimeout(function(){
